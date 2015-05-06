@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "Sample Demo",
+  "main": "index.js",
+  "author": [
+    "markscripter <markscript@gmail.com>"
+  ],
+  "devDependencies": {
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-svgmin": "^1.1.2",
+    "gulp-svgo": "^0.1.1",
+    "gulp-svgstore": "^5.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.2.4"
+  },
+  "dependencies": {
+    "lodash": "^3.8.0"
+  }
+}

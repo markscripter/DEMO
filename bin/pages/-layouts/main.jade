@@ -1,0 +1,54 @@
+include ../_mixins/nav.jade
+
+doctype html
+html(lang="en")
+  head
+    block head
+      title= pageTitle
+      meta(charset="utf-8")
+      meta(http-equiv="x-ua-compatible" content="ie=edge")
+      meta(name="description" content="")
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      link(rel="stylesheet" href="/css/main.css")
+      script(type="text/javascript" src="/js/global.min.js")
+  body(ng-app)
+    div.svg-store(style="display:none;")
+      include ../../svg/min/svgmin.svg
+    header
+      .logo
+        a(href="/")
+          svg.logo-icon
+            use(xlink:href="#icon-logo")
+      if mainNav
+        +nav(mainNav.icon, mainNav.links, mainNav.className)
+      if utilityNav
+        +nav(utilityNav.icon, utilityNav.links, utilityNav.className)
+      //- nav.menu(role="navigation")
+      //-   a.menu-trigger(aria-haspopup="true")
+      //-     svg.menu-icon
+      //-       use(xlink:href="#icon-menu")
+      //-   block main-nav
+      //-     ul.menu-content(aria-hidden="true" aria-label="menu")
+      //-       li
+      //-         a(href="#") Beers
+      //-       li
+      //-         a(href="#") Breweries
+      //- nav.utility
+      //-   a.menu-trigger(aria-haspopup="true")
+      //-     svg.utility-icon
+      //-       use(xlink:href="#icon-utility-nav")
+      //-   block utility-nav
+      //-     ul.menu-content(aria-hidden="true" aria-label="utility-navigation")
+      //-       li
+      //-         a(href="#") About
+      //-       li
+      //-         a(href="#") Contact
+    article
+      div
+        block main
+      scripts
+        block scripts
+          script(src="/js/main.min.js" type="text/javascript")
+    footer
+      block footer
+        

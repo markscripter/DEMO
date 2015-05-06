@@ -1,0 +1,31 @@
+{
+  "pageTitle" : "Beer Search",
+  "mainNav" : {
+    "icon" : "#icon-menu",
+    "className" : "menu",
+    "links" : [
+      {
+        "route" : "/beers",
+        "text" : "Beers"
+      },
+      {
+        "route" : "/breweries",
+        "text" : "Breweries"
+      }
+    ]
+  },
+  "utilityNav" : {
+    "icon" : "#icon-utility-nav",
+    "className" : "utility",
+    "links" : [
+      {
+        "route" : "/about",
+        "text" : "About"
+      },
+      {
+        "route" : "/contact",
+        "text" : "Contact"
+      }
+    ]
+  }
+}
