@@ -1,8 +1,8 @@
 {
   "pageTitle" : "Beer Search",
   "mainNav" : {
-    "icon" : "#icon-menu",
-    "className" : "menu",
+    "icon" : "#icon-main-nav",
+    "className" : "main",
     "links" : [
       {
         "route" : "/beers",

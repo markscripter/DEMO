@@ -1,10 +1,10 @@
 mixin nav(icon, links, className)
   nav(class=className role="navigation")
     a.menu-trigger(aria-haspopup="true")
-      svg.menu-icon
+      svg(class=className + "-icon")
         use(xlink:href=icon)
     block main-nav
       ul.menu-content(aria-hidden="true" aria-label="menu")
         each link in links
           li
-            a(href=link.route) link.text
+            a(href=link.route)= link.text

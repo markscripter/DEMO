@@ -6,23 +6,12 @@ header {
 @menu-icon-height: 20px;
 
 .menu {
-  display: inline; 
 
   &-trigger {
     display: inline-block;
     position: absolute;
     top: calc(50% - (@menu-icon-width + 20px)); // + 20px === the total amount of padding(top + bottom)
-    left: 0px;
     padding: 15px 10px;
-  }
-
-  &-icon {
-    width: @menu-icon-width;
-    height: @menu-icon-height;
-    stroke: white;
-    stroke-width: 6px;
-    display: block;
-    cursor: pointer;
   }
 
   &-content {
@@ -35,4 +24,36 @@ header {
       display: block;
     }
   }
-} 
+}
+
+.main {
+  display: inline; 
+
+  .menu-trigger {
+    left: 0px;
+  }
+
+  &-icon {
+    width: @menu-icon-width;
+    height: @menu-icon-height;
+    stroke: white;
+    stroke-width: 6px;
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.utility {
+
+  .menu-trigger {
+    right: 0px;
+  }
+
+  &-icon {
+    width: @menu-icon-width;
+    height: @menu-icon-height;
+    fill: white;
+    display: block;
+    cursor: pointer;
+  }
+}

@@ -13,6 +13,7 @@ var rename = require('gulp-rename');
 var sourcemaps = require('gulp-sourcemaps');
 var shell = require('gulp-shell');
 var prefixer = require('gulp-autoprefixer');
+var babel = require('gulp-babel');
 
 var PATHS = require(appRoot + '/config.js').paths;
 
@@ -36,9 +37,9 @@ gulp.task('svg', function () {
     .pipe(gulp.dest(PATHS.svg + "min/"));
 });
 
-gulp.task('jade', function () {
+// gulp.task('jade', function () {
 
-});
+// });
 
 gulp.task('js-thirdparty', function () {
   return gulp.src(PATHS.bower + "**/**.min.js")
@@ -50,9 +51,10 @@ gulp.task('js', function () {
   return gulp.src(PATHS.js + "*.js")
     .pipe(sourcemaps.init())
     .pipe(concat('main.min.js'))
+    .pipe(babel())
     .pipe(uglify())
     .pipe(sourcemaps.write("./maps/"))
-    .pipe(gulp.dest(PATHS.pub + "/js/"));
+    .pipe(gulp.dest(PATHS.pub + "js/"));
 });
 
 gulp.task('js-maps', function () {
@@ -67,6 +69,7 @@ gulp.task('watch', function () {
   gulp.watch(PATHS.less + "**.less", ['less']);
   gulp.watch(PATHS.less + "**/**.less", ['less']);
   gulp.watch(PATHS.svg + "**.svg", ['svg']);
+  gulp.watch(PATHS.js + "**.js", ['js']);
 });
 
 gulp.task('express', shell.task(['node index.js']));
