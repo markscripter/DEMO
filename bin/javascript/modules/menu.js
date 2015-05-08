@@ -1,27 +1,40 @@
 'use strict';
+var stampit = require('stampit');
 
-export var menu = {
-  trigger : document.querySelector('.menu-trigger[aria-haspopup="true"]'),
-  content : document.querySelector('.menu-content[aria-hidden]'), 
-  init(el) {
-    this.el = el;
-    return {
-      openMenu() {
-        if(this.content.hasAttribute('aria-hidden')){
-          let isHidden = this.content.attributes['aria-hidden'].textContent;
-          if(isHidden === "true") {
-            this.content.attributes['aria-hidden'].textContent = false;
-          }
-        }
-      },
-      closeMenu(){
-        if(this.content.hasAttribute('aria-hidden')){
-          let isHidden = this.content.attributes['aria-hidden'].textContent;
-          if(isHidden === "false") {
-            this.content.attributes['aria-hidden'].textContent = true;
-          }
-        }
-      },
+module.exports = stampit().enclose(function () {
+  let el;
+  let trigger;
+  let content;
+  let isHidden;
+
+  this.toggelMenu = function toggelMenu() {
+    if (content.hasAttribute('aria-hidden')) {
+      isHidden = content.attributes['aria-hidden'].textContent;
+      if (isHidden === "true") {
+        content.attributes['aria-hidden'].textContent = false;
+      } else {
+        content.attributes['aria-hidden'].textContent = true;
+      }
     }
   }
-}
+
+  this.bindContent = function bindContent(el) {
+    if (!el) {
+      return;
+    }
+    trigger = el.querySelector('.menu-trigger');
+    content = el.querySelector('.menu-content');
+
+    trigger.addEventListener('click', this.toggelMenu);
+  }
+
+  return stampit.mixIn(this, {
+    init : function (elem) {
+      if (!elem) {
+        return;
+      }
+      el = elem;
+      this.bindContent(el);
+    }
+  });
+});

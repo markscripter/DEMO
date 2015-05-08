@@ -1,4 +1,13 @@
-import {menu} from "./modules/menu";
+var stampit = require('stampit');
+var menu = require('./modules/menu.js');
 
-var mainMenu = menu.init(document.querySelector('.main'));
-var utilityMenu = menu.init(document.querySelector('.utility'));
+// get base stamp (prototype)
+var Menu = stampit.compose(menu);
+
+// instantiate main menu
+var mainMenu = Menu();
+mainMenu.init(document.querySelector('.main'));
+
+// instantiate utility menu
+var utilityMenu = Menu();
+utilityMenu.init(document.querySelector('.utility'));

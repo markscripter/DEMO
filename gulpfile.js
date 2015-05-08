@@ -59,13 +59,13 @@ gulp.task('js-thirdparty', function () {
 gulp.task('js', function () {
   browserify(PATHS.js + 'main.js')
     .add(require.resolve('babel/polyfill'))
-    .transform(babelify)
+    // .transform(babelify)
     .bundle()
     .on('error', util.log.bind(util, 'Browserify Error'))
     .pipe(source('main.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(uglify({ mangle: false }))
+    // .pipe(uglify({ mangle: false }))
     .pipe(sourcemaps.write("./maps/"))
     .pipe(gulp.dest(PATHS.pub + "js/"));
 });
