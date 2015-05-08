@@ -1,5 +1,4 @@
 'use strict';
-var inst;
 
 export var menu = {
   trigger : document.querySelector('.menu-trigger[aria-haspopup="true"]'),

@@ -11,6 +11,11 @@ module.exports = {
     pub : appRoot + "/public/",
     js : appRoot + "/bin/javascript/",
     bower : appRoot + "/bower_components/",
+    bowerFiles : [
+      appRoot + "/bower_components/angular/angular.min.js",
+      // appRoot + "/bower_components/lodash/lodash.min.js",
+      appRoot + "/bower_components/stampit/dist/stampit.min.js",
+    ],
     nodeModules : appRoot + "/node_modules/",
     mockData : appRoot + "/bin/mockdata.json"
   }

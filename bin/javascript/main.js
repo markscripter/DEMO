@@ -1,4 +1,4 @@
-import menu as Menu from "modules/menu.js";
+import {menu} from "./modules/menu";
 
-var mainMenu = Menu.init(document.querySelector('.main'));
-var utilityMenu = Menu.init(document.querySelector('.utility'));
+var mainMenu = menu.init(document.querySelector('.main'));
+var utilityMenu = menu.init(document.querySelector('.utility'));

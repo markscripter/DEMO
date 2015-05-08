@@ -13,7 +13,14 @@ var rename = require('gulp-rename');
 var sourcemaps = require('gulp-sourcemaps');
 var shell = require('gulp-shell');
 var prefixer = require('gulp-autoprefixer');
-var babel = require('gulp-babel');
+var header = require('gulp-header');
+var footer = require('gulp-footer');
+var copy = require('gulp-copy');
+var browserify = require('browserify');
+var babelify = require('babelify');
+var buffer = require('vinyl-buffer');
+var source = require('vinyl-source-stream');
+var util = require('gulp-util');
 
 var PATHS = require(appRoot + '/config.js').paths;
 
@@ -42,17 +49,23 @@ gulp.task('svg', function () {
 // });
 
 gulp.task('js-thirdparty', function () {
-  return gulp.src(PATHS.bower + "**/**.min.js")
+  return gulp.src(PATHS.bowerFiles)
+    .pipe(header("\n/**BEGIN**/\n"))
+    .pipe(footer("\n/**END**/\n"))
     .pipe(concat('global.min.js'))
     .pipe(gulp.dest(PATHS.pub + "/js/"));
 });
 
 gulp.task('js', function () {
-  return gulp.src(PATHS.js + "*.js")
-    .pipe(sourcemaps.init())
-    .pipe(concat('main.min.js'))
-    .pipe(babel())
-    .pipe(uglify())
+  browserify(PATHS.js + 'main.js')
+    .add(require.resolve('babel/polyfill'))
+    .transform(babelify)
+    .bundle()
+    .on('error', util.log.bind(util, 'Browserify Error'))
+    .pipe(source('main.js'))
+    .pipe(buffer())
+    .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(uglify({ mangle: false }))
     .pipe(sourcemaps.write("./maps/"))
     .pipe(gulp.dest(PATHS.pub + "js/"));
 });
