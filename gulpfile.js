@@ -58,8 +58,8 @@ gulp.task('js-thirdparty', function () {
 
 gulp.task('js', function () {
   browserify(PATHS.js + 'main.js')
-    .add(require.resolve('babel/polyfill'))
-    // .transform(babelify)
+    // .add(require.resolve('babel/polyfill'))
+    .transform(babelify)
     .bundle()
     .on('error', util.log.bind(util, 'Browserify Error'))
     .pipe(source('main.js'))
@@ -82,7 +82,7 @@ gulp.task('watch', function () {
   gulp.watch(PATHS.less + "**.less", ['less']);
   gulp.watch(PATHS.less + "**/**.less", ['less']);
   gulp.watch(PATHS.svg + "**.svg", ['svg']);
-  gulp.watch(PATHS.js + "**.js", ['js']);
+  gulp.watch([PATHS.js + "**.js", PATHS.js + "modules/**.js"], ['js']);
 });
 
 gulp.task('express', shell.task(['node index.js']));

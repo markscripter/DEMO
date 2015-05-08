@@ -7,11 +7,19 @@ module.exports = stampit().enclose(function () {
   let content;
   let isHidden;
 
-  this.toggelMenu = function toggelMenu() {
+  this.toggelMenu = function toggelMenu(e) {
     if (content.hasAttribute('aria-hidden')) {
       isHidden = content.attributes['aria-hidden'].textContent;
       if (isHidden === "true") {
         content.attributes['aria-hidden'].textContent = false;
+        e.preventDefault();
+
+        // setup binding to close menu when anything but menu is clicked
+        document.querySelector('body').addEventListener('click', (e)=> {
+          if (!e.defaultPrevented) {
+            content.attributes['aria-hidden'].textContent = true;
+          }
+        });
       } else {
         content.attributes['aria-hidden'].textContent = true;
       }
