@@ -11,4 +11,16 @@ module.exports = function (app) {
       data = require(PATHS.mockData);
       res.render('index/index', _.assign(data, require(PATHS.pages + "/index/index.json")));
     });
+  app.route('/about')
+    .get(function (req, res) {
+      data = require(PATHS.mockData);
+      res.render('index/index', _.assign(data, require(PATHS.pages + "/index/index.json")));
+    });
+  app.route('/contact')
+    .get(function (req, res) {
+      data = require(PATHS.mockData);
+      res.render('index/index', _.assign(data, require(PATHS.pages + "/index/index.json")));
+    });
+    
+    
 };

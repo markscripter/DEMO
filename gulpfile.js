@@ -87,6 +87,6 @@ gulp.task('watch', function () {
 
 gulp.task('express', shell.task(['node index.js']));
 
-gulp.task('default', ['svg', 'less', 'js-thirdparty', 'js', 'js-maps', 'watch']);
+gulp.task('default', ['svg', 'less', 'js-thirdparty', 'js', 'js-maps']);
 
-gulp.task('serve', ['default', 'express']);
+gulp.task('serve', ['default', 'watch', 'express']);

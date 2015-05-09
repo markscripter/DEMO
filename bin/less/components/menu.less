@@ -21,6 +21,11 @@ header {
     padding: 0px;
     list-style: none;
 
+    a {
+      text-decoration: none;
+      color: @main;
+    }
+
 
     &[aria-hidden="true"]{
       display: none;
@@ -41,6 +46,15 @@ header {
 
   .menu-content {
     left: 0;
+    width: 70%;
+    .box-shadow;
+
+    a {
+      .border-bottom;
+      padding: 5px 15px;
+      line-height: 3em;
+      display: block;
+    }
   }
 
   &-icon {
@@ -67,8 +81,6 @@ header {
     .box-shadow;
 
     a {
-      color: @main;
-      text-decoration: none;
       line-height: 1.5em;
     }
   }
