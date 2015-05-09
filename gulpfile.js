@@ -78,6 +78,11 @@ gulp.task('js-maps', function () {
     .pipe(gulp.dest(PATHS.pub + "/js/"));
 });
 
+gulp.task('favicon', function () {
+  return gulp.src(PATHS.images + "logo.png")
+    .pipe(gulp.dest(PATHS.pub));
+});
+
 gulp.task('watch', function () {
   gulp.watch(PATHS.less + "**.less", ['less']);
   gulp.watch(PATHS.less + "**/**.less", ['less']);
@@ -87,6 +92,6 @@ gulp.task('watch', function () {
 
 gulp.task('express', shell.task(['node index.js']));
 
-gulp.task('default', ['svg', 'less', 'js-thirdparty', 'js', 'js-maps']);
+gulp.task('default', ['svg', 'less', 'js-thirdparty', 'js', 'js-maps', 'favicon']);
 
 gulp.task('serve', ['default', 'watch', 'express']);

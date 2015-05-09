@@ -10,6 +10,7 @@ module.exports = {
     data : appRoot + "/bin/data/",
     pub : appRoot + "/public/",
     js : appRoot + "/bin/javascript/",
+    images : appRoot + "/bin/images/",
     bower : appRoot + "/bower_components/",
     bowerFiles : [
       appRoot + "/bower_components/angular/angular.min.js",

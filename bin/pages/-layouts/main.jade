@@ -6,11 +6,19 @@ html(lang="en")
     block head
       title= pageTitle
       meta(charset="utf-8")
+      meta(http-equiv="content-type" content="text/html;charset=utf-8")
+      meta(http-equiv="content-language" content="en")
       meta(http-equiv="x-ua-compatible" content="ie=edge")
       meta(name="description" content="")
+      meta(name="keywords" content="")
       meta(name="viewport" content="width=device-width, initial-scale=1")
+      meta(name="apple-mobile-web-app-capable" content="yes")
+      link(rel="apple-touch-icon" href="/logo.png")
+      link(rel="apple-touch-icon-precomposed" href="/logo.png")
+      link(rel="icon" href="/logo.png" type="image/x-icon")
       link(rel="stylesheet" href="/css/main.css")
       script(type="text/javascript" src="/js/global.min.js")
+
   body(ng-app)
     div.svg-store(style="display:none;")
       include ../../svg/min/svgmin.svg
