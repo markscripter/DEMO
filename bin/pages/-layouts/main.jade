@@ -18,7 +18,6 @@ html(lang="en")
       link(rel="icon" href="/logo.png" type="image/x-icon")
       link(rel="stylesheet" href="/css/main.css")
       script(type="text/javascript" src="/js/global.min.js")
-
   body(ng-app)
     div.svg-store(style="display:none;")
       include ../../svg/min/svgmin.svg
@@ -31,12 +30,10 @@ html(lang="en")
         +nav(mainNav.icon, mainNav.links, mainNav.className)
       if utilityNav
         +nav(utilityNav.icon, utilityNav.links, utilityNav.className)
-    article
-      div
-        block main
-      scripts
-        block scripts
-          script(src="/js/main.js" type="text/javascript")
+    block main
+
+    block scripts
+      script(src="/js/main.js" type="text/javascript")
     footer
       block footer
         

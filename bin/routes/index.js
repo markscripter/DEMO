@@ -14,13 +14,11 @@ module.exports = function (app) {
   app.route('/about')
     .get(function (req, res) {
       data = require(PATHS.mockData);
-      res.render('index/index', _.assign(data, require(PATHS.pages + "/index/index.json")));
+      res.render('about/about', _.assign(data, require(PATHS.pages + "/about/about.json")));
     });
   app.route('/contact')
     .get(function (req, res) {
       data = require(PATHS.mockData);
-      res.render('index/index', _.assign(data, require(PATHS.pages + "/index/index.json")));
+      res.render('contact/contact', _.assign(data, require(PATHS.pages + "/contact/contact.json")));
     });
-    
-    
 };
