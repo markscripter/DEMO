@@ -37,7 +37,10 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "angular": "^1.4.0",
+    "flexboxgrid": "^6.2.0",
     "lodash": "^3.8.0",
+    "normalize.css": "^3.0.3",
     "stampit": "^1.1.0"
   }
 }

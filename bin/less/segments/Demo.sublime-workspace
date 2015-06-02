@@ -1,0 +1,642 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flexboxgrid.min.css"
+			],
+			[
+				"brewer",
+				"breweriesJSON"
+			],
+			[
+				"bower",
+				"bower_components/"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"Category",
+				"CategoryPageGenerator"
+			],
+			[
+				"acti",
+				"activatorClose"
+			],
+			[
+				"activator",
+				"activatorMenu"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"do",
+				"dot.min.svg"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"brea",
+				"breakfast_query"
+			],
+			[
+				"break",
+				"breakfast_posts"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"close",
+				"closeMenu"
+			],
+			[
+				"$uber_",
+				"$uber_menu_activator"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"_first",
+				"_firstName"
+			],
+			[
+				"load",
+				"loadfile"
+			],
+			[
+				"s",
+				"sass	import"
+			],
+			[
+				"dust",
+				"dustFile"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal	",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"remove	",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"intsl",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: Angular.js"
+			],
+			[
+				"require",
+				"Snippet: require"
+			],
+			[
+				"req",
+				"Snippet: require"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"snippet html",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"aria",
+				"Set Syntax: Aria Templates"
+			],
+			[
+				"dart",
+				"Build: Dart Run"
+			],
+			[
+				"",
+				"Bower: Install"
+			],
+			[
+				"no",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Settings – User"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 236.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mscript/Development/Demo",
+		"/Users/mscript/Development/Demo/bin"
+	],
+	"file_history":
+	[
+		"/Users/mscript/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mscript/Development/Demo/bin/less/segments/base.less",
+		"/Users/mscript/Development/Demo/bin/less/main.less",
+		"/Users/mscript/Development/Demo/config.js",
+		"/Users/mscript/Development/Demo/bin/pages/contact/contact.jade",
+		"/Users/mscript/Development/Demo/bin/pages/about/about.jade",
+		"/Users/mscript/Development/Demo/bin/pages/-layouts/main.jade",
+		"/Users/mscript/Development/Demo/bin/less/components/menu.less",
+		"/Users/mscript/Development/Demo/bin/pages/index/index.jade",
+		"/Users/mscript/Development/Demo/bin/routes/index.js",
+		"/Users/mscript/Development/Demo/gulpfile.js",
+		"/Users/mscript/Development/Demo/.gitignore",
+		"/Users/mscript/Development/Demo/bin/svg/logo.svg",
+		"/Users/mscript/Development/Demo/bin/less/components/variables.less",
+		"/Users/mscript/Development/Demo/bin/less/segments/header.less",
+		"/Users/mscript/Development/Demo/bin/javascript/modules/menu.js",
+		"/Users/mscript/Development/Demo/bin/pages/about/about.json",
+		"/Users/mscript/Development/Demo/bin/pages/contact/contact.json",
+		"/Users/mscript/Development/Demo/bin/javascript/main.js",
+		"/Users/mscript/Development/Demo/bin/pages/index/index.json",
+		"/Users/mscript/Development/Demo/public/js/global.min.js",
+		"/Users/mscript/Development/Demo/bower.json",
+		"/Users/mscript/Development/Demo/bin/javascript/menu.js",
+		"/Users/mscript/Development/Demo/public/js/main.min.js",
+		"/Users/mscript/Development/Demo/bin/pages/_mixins/nav.jade",
+		"/Users/mscript/Development/Demo/bin/mockdata.json",
+		"/Users/mscript/Development/Demo/bin/routes.js",
+		"/Users/mscript/Development/Demo/index.js",
+		"/Users/mscript/Development/Demo/bin/less/components/logo.less",
+		"/Users/mscript/Development/Demo/bin/less/variables.less",
+		"/Users/mscript/Development/Demo/bin/svg/menu.svg",
+		"/Users/mscript/Development/Demo/bin/svg/svgmin.svg",
+		"/Users/mscript/Development/Demo/less/main.less",
+		"/Users/mscript/Development/Demo/public/css/main.css",
+		"/Users/mscript/Development/sportngin/bin/routes.js",
+		"/Users/mscript/Development/sportngin/gulpfile.js",
+		"/Users/mscript/Development/sportngin/package.json",
+		"/Users/mscript/Development/sportngin/bower.json",
+		"/Users/mscript/Development/sportngin/pages/-layouts/main.jade",
+		"/Users/mscript/Development/sportngin/bin/routes/beers.js",
+		"/Users/mscript/Development/sportngin/bin/routes/breweries.js",
+		"/Users/mscript/Development/sportngin/index.js",
+		"/Users/mscript/Development/sportngin/bin/routes/index.js",
+		"/Users/mscript/Development/sportngin/config.js",
+		"/Users/mscript/Development/sportngin/svg/logo.min.svg",
+		"/Users/mscript/Development/sportngin/bin/data/breweries.json",
+		"/Users/mscript/Development/sportngin/bin/data/beers.json",
+		"/Users/mscript/Development/sportngin/pages/index/index.jade",
+		"/Users/mscript/Development/sportngin/pages/index/index.json",
+		"/Users/mscript/Development/sportngin/pages/index.jade",
+		"/Users/mscript/Development/sportngin/layouts/main.jade",
+		"/Users/mscript/Development/sportngin/less/variables.less",
+		"/Users/mscript/Development/sportngin/components/index.jade",
+		"/Users/mscript/Development/frame/server/routes/core.routes.js",
+		"/Users/mscript/.vimrc",
+		"/Users/mscript/Development/frame/gulpfile.js",
+		"/Users/mscript/Development/frame/app.js",
+		"/Users/mscript/Development/frame/package.json",
+		"/Users/mscript/Development/frame/bower.json",
+		"/Users/mscript/Downloads/Simples - Minimalistic Responsive Template - Original.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/index/index.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/Gruntfile.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/global/javascript/libraries.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/footer/templates/footer.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/app.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/mscriptdesign-request.log",
+		"/Users/mscript/Development/www.mscriptdesign.com/seperator",
+		"/Users/mscript/Development/www.mscriptdesign.com/banner",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/index/index.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/footer/footer.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/header/templates/header.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/header/header.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/site/javascript/libraries.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/bower.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/.gitignore",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/script-logger/index.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/scriptlogger.log",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/lodash/lodash.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/script-logger/lib/script-logger.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/script-logger/package.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/header/less/header.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/package.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/global/styles/main.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/site/index.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/index/index.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/footer/less/footer.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/merge-files/lib/merge-files.js",
+		"/Users/mscript/Desktop/new.html",
+		"/Users/mscript/Desktop/test.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/merge-files/package.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/grunt-contrib-jade/tasks/jade.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/homepage/index.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/grunt-homegrown-architect/package.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/node_modules/grunt-contrib-jade/package.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/site/index/index.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/homepage/homepage.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/homepage/index.json",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/site/homepage/index.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/index.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/global/templates/doctype.jade.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/header/templates/doctype.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/components/header/templates/head.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/header/less/header.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/site/index.jade.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/site/index.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/site/index.jade.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/index.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/objects/header.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/header/javascript/header.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/main.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/objects/brand.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/objects/footer.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/generic/base.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/objects/uber_nav.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/global/styles/generic/vars.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/lib/app.js",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/index.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/header/templates/doctype.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/header/templates/head.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/footer/templates/footer.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/public/navigation/templates/navigation.jade",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/about/index.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/_layouts/default.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/_includes/head.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/index.html",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/css/generic/icon-fonts.less",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/_plugins/manifest_tag.rb",
+		"/Users/mscript/Development/www.mscriptdesign.com/local/_manifests/manifests.mf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/mscript/Development/www.grainlessgal.com/wordpress/",
+			"/Users/mscript/Development/www.grainlessgal.com/wordpress/wp-content/",
+			"/Users/mscript/Development/www.grainlessgal.com/wordpress/wp-content/themes/2014_gg",
+			"/Users/mscript/Development/www.grainlessgal.com/wordpress/wp-includes/",
+			"/Users/mscript/Development/www.grainlessgal.com/wordpress/wp-content/themes/2014_gg"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"babel",
+			"cervec",
+			"zen",
+			"</bi",
+			"<body",
+			"body",
+			"backgroundTable",
+			"backgroundTabble",
+			"A>",
+			"align=\"right\"",
+			"height=\"1\"",
+			"<A",
+			"IMG",
+			"TD",
+			"TR",
+			"TBODY",
+			"TABLE",
+			"work anniver",
+			"news &",
+			"p",
+			"MsoN",
+			"MsoNormla",
+			"news &",
+			"news and ann",
+			"mustache",
+			"sourceMappingURL",
+			"underscore-min.map",
+			"_",
+			"file",
+			"filepath",
+			"render",
+			"async",
+			"icomoon",
+			"invoice",
+			"wp_",
+			"wp_head",
+			"styles",
+			"wp_default_styles",
+			"style.css",
+			"wp_head",
+			"wp+head",
+			"wp_head",
+			"sharing_add_header",
+			"wp_head",
+			"sharing_init",
+			"wp_head",
+			"sharedadd",
+			"sharedaddy.css",
+			"wp_head",
+			"sharing",
+			"share",
+			"sharing.css",
+			"sharedaddy",
+			"feed_links",
+			"'wp_head'",
+			"feed_links",
+			"'wp_head'",
+			"truly_minimal_scripts",
+			"wp_enqueue_scripts",
+			"wp_head",
+			"#menu-main li:first-child",
+			"rgb(",
+			"widget-area",
+			".field",
+			"widget",
+			"sidge",
+			"widget-tit",
+			"</g",
+			"<g",
+			"sea",
+			"<path",
+			"sea",
+			"menu_activator--search",
+			"menu_wrapper",
+			"menu-main-container",
+			"gg-logo",
+			":active",
+			"focus",
+			".circl",
+			".circle",
+			"brand_s",
+			":hover",
+			"gg-",
+			"gg-logo",
+			"<path",
+			"wp_head",
+			"menu_ac",
+			".hentry",
+			".site ",
+			".site",
+			".site_content--wall-title",
+			"text",
+			"form-submit",
+			".form-allowed-tags, .form-allowed-tags code",
+			"textarea",
+			"content_nav",
+			"truly_minimal_content_nav",
+			"truly_minimal_content_nav()",
+			"truly_minimal_content_nav",
+			"get_post_meta",
+			"the_post_thumbnail",
+			"%;\n",
+			"widget-area",
+			".widget-area",
+			"#secondary",
+			"<path",
+			"-svg",
+			"<path",
+			"path",
+			".site-content [class*=\"navigation\"]",
+			"widget-title",
+			"-svg",
+			"content_header",
+			"content-header",
+			"path",
+			"page-svg",
+			"page-svf",
+			"path",
+			"menu_wr",
+			"menu-wrapper",
+			"30px",
+			"site-footer",
+			"credits",
+			"site-footer",
+			"footer",
+			"truly_minimal_content_nav",
+			"get_the_category_list",
+			"_make_cat_compat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"a>",
+			"<a",
+			"img",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"site_footer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.dart.config.check":
+	{
+		"height": 94.0
+	},
+	"output.dart.message":
+	{
+		"height": 94.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Demo.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
